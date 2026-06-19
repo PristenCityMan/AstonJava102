@@ -1,0 +1,107 @@
+[
+{
+"lastName":"Иванов",
+"firstName":"Иван",
+"patronymic":"Иванович",  
+  "listOfBook":[
+    {"bookName":"Книга1Судент1",
+    "pages":"32",
+    "releaseDate":"2026.01.01"},
+    
+    {"bookName":"Книга2Судент1",
+    "pages":"33",
+    "releaseDate":"2025.01.01"},
+    
+    {"bookName":"Книга3Судент1",
+    "pages":"35",
+    "releaseDate":"1926.01.01"},
+
+    {"bookName":"Книга4Судент1",
+    "pages":"3700",
+    "releaseDate":"1926.01.01"},
+
+    {"bookName":"Повторяющаяся книга",
+    "pages":"555",
+    "releaseDate":"1955.05.15"}
+  ]
+},
+{
+"lastName":"Петров",
+"firstName":"Петр",
+"patronymic":"Петрович",  
+  "listOfBook":[
+    {"bookName":"Книга1Судент2",
+    "pages":"21",
+    "releaseDate":"2026.01.01"},
+    
+    {"bookName":"Повторяющаяся книга",
+    "pages":"555",
+    "releaseDate":"1955.05.15"},
+    
+    {"bookName":"Книга3Судент2",
+    "pages":"226",
+    "releaseDate":"1946.01.01"},
+
+    {"bookName":"Книга4Судент2",
+    "pages":"3701",
+    "releaseDate":"1956.01.01"},
+
+    {"bookName":"Книга5Судент2",
+    "pages":"322",
+    "releaseDate":"1962.02.01"}
+  ]
+},
+  {
+"lastName":"Сергеев",
+"firstName":"Сергей",
+"patronymic":"Сергеевич",  
+  "listOfBook":[
+    {"bookName":"Книга1Судент3",
+    "pages":"42",
+    "releaseDate":"2014.01.01"},
+    
+    {"bookName":"Книга2Судент3",
+    "pages":"43",
+    "releaseDate":"2014.01.01"},
+    
+    {"bookName":"Книга3Судент3",
+    "pages":"45",
+    "releaseDate":"1946.01.01"},
+
+    {"bookName":"Книга4Судент3",
+    "pages":"4700",
+    "releaseDate":"1946.01.01"},
+
+    {"bookName":"Книг5Судент3",
+    "pages":"423",
+    "releaseDate":"1942.02.01"}
+  ]
+},
+  {
+"lastName":"Леонидов",
+"firstName":"Леонид",
+"patronymic":"Леонидович",  
+  "listOfBook":[
+    {"bookName":"Книга1Судент4",
+    "pages":"39",
+    "releaseDate":"2019.01.01"},
+    
+    {"bookName":"Книга2Судент4",
+    "pages":"93",
+    "releaseDate":"2018.01.01"},
+    
+    {"bookName":"Книга3Судент4",
+    "pages":"359",
+    "releaseDate":"1929.01.01"},
+
+     {"bookName":"Повторяющаяся книга",
+    "pages":"555",
+    "releaseDate":"1955.05.15"},
+
+    {"bookName":"Книга5Судент4",
+    "pages":"3239",
+    "releaseDate":"1939.02.01"}
+  ]
+}
+
+]
