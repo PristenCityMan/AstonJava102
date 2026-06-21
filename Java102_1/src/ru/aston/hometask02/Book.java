@@ -18,10 +18,8 @@ public class Book {
     @JsonProperty("releaseDate")
     private LocalDate releaseDate;
 
-    public Book() {
-    }
-
-    public Book(String bookName, Integer pages, LocalDate releaseDate) {
+    public Book(@JsonProperty("bookName") String bookName, @JsonProperty("pages") Integer pages,
+                @JsonProperty("releaseDate") LocalDate releaseDate) {
         this.bookName = bookName;
         this.pages = pages;
         this.releaseDate = releaseDate;

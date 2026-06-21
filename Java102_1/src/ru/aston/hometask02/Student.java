@@ -17,10 +17,8 @@ public class Student {
     @JsonProperty("listOfBook")
     private List<Book> listOfBook;
 
-    public Student() {
-    }
-
-    public Student(String lastName, String firstName, String patronymic, List<Book> listOfBook) {
+    public Student(@JsonProperty("lastName") String lastName, @JsonProperty("firstName") String firstName,
+                   @JsonProperty("patronymic") String patronymic, @JsonProperty("listOfBook") List<Book> listOfBook) {
         this.lastName = lastName;
         this.firstName = firstName;
         this.patronymic = patronymic;
