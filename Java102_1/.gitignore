@@ -5,3 +5,4 @@ out/
 .kotlin
 /.idea/
 *.iml
+/lib/
