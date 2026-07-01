@@ -4,16 +4,26 @@ public class Unit {
     private String unitPartA;
     private String unitPartB;
 
-    public Unit(String unitPartA, String unitPartB) {
-        this.unitPartA = unitPartA;
-        this.unitPartB = unitPartB;
-    }
+    public static class Builder {
 
-    public String getUnitPartA() {
-        return unitPartA;
-    }
+        private final Unit unit;
 
-    public String getUnitPartB() {
-        return unitPartB;
+        public Builder() {
+            unit = new Unit();
+        }
+
+        public Builder unitPartA(String unitPartA) {
+            unit.unitPartA = unitPartA;
+            return this;
+        }
+
+        public Builder unitPartB(String unitPartB) {
+            unit.unitPartB = unitPartB;
+            return this;
+        }
+
+        public Unit build() {
+            return unit;
+        }
     }
 }

@@ -19,8 +19,8 @@ public class ProxyUnit implements ShowSomeString {
 
     public void showSomeString() {
         unit = new Unit(someString);
-        if (someString.isEmpty())
+        if (someString.isEmpty()) {
             System.out.println("Empty someString");
-        else unit.showSomeString();
+        } else unit.showSomeString();
     }
 }
